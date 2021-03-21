@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-03-17T12:06:27.873Z",
+        "start_timestamp": "2021-03-21T22:10:13.141Z",
         "before": [
           {
             "result": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1090000000,
+              "duration": 1087000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8241000000,
+              "duration": 7822000000,
               "status": "passed"
             },
             "before": [
@@ -67,13 +67,12 @@
           },
           {
             "result": {
-              "duration": 91000000,
+              "duration": 96000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -100,12 +99,13 @@
           },
           {
             "result": {
-              "duration": 69000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 59000000,
+              "duration": 74000000,
               "status": "passed"
             },
             "before": [
@@ -165,6 +165,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -176,7 +177,7 @@
           },
           {
             "result": {
-              "duration": 52000000,
+              "duration": 51000000,
               "status": "passed"
             },
             "before": [
@@ -203,7 +204,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -242,6 +242,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -291,7 +292,7 @@
           },
           {
             "result": {
-              "duration": 50000000,
+              "duration": 48000000,
               "status": "passed"
             },
             "before": [
@@ -329,7 +330,7 @@
           },
           {
             "result": {
-              "duration": 50000000,
+              "duration": 49000000,
               "status": "passed"
             },
             "before": [
@@ -367,7 +368,7 @@
           },
           {
             "result": {
-              "duration": 44000000,
+              "duration": 45000000,
               "status": "passed"
             },
             "before": [
@@ -394,6 +395,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -405,13 +407,12 @@
           },
           {
             "result": {
-              "duration": 89000000,
+              "duration": 86000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -444,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 49000000,
+              "duration": 48000000,
               "status": "passed"
             },
             "before": [
@@ -471,7 +472,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -483,7 +483,7 @@
           },
           {
             "result": {
-              "duration": 100000000,
+              "duration": 42000000,
               "status": "passed"
             },
             "before": [
@@ -515,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 147000000,
+              "duration": 215000000,
               "status": "passed"
             },
             "before": [
@@ -554,6 +554,9 @@
         ],
         "tags": [
           {
+            "name": "@smoke"
+          },
+          {
             "name": "@scenarioOutline"
           }
         ]
@@ -564,6 +567,225 @@
     "id": "smartbear-order-feature",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/ScenarioOutlines.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-21T22:10:23.072Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Table columns names  As a user, I should be able to login as librarian. When I go to Users page, table",
+        "description": "  should have following columns:",
+        "id": "files-for-task5;table-columns-names--as-a-user--i-should-be-able-to-login-as-librarian.-when-i-go-to-users-page--table",
+        "after": [
+          {
+            "result": {
+              "duration": 1095000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1991000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.cybertek.step_definitions.loginWithParameter_StepDefinitions.user_is_on_the_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "user login as a librarian",
+            "match": {
+              "location": "com.cybertek.step_definitions.loginWithParameter_StepDefinitions.user_login_as_a_librarian()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on \"Users\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Users\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.cybertek.step_definitions.PageNavigations_StepDefinitions.i_click_on_link(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "table should have following column names:",
+            "match": {
+              "location": "com.cybertek.step_definitions.PageNavigations_StepDefinitions.table_should_have_following_column_names(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.cybertek.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Actions"
+                ]
+              },
+              {
+                "cells": [
+                  "User ID"
+                ]
+              },
+              {
+                "cells": [
+                  "Full Name"
+                ]
+              },
+              {
+                "cells": [
+                  "Email"
+                ]
+              },
+              {
+                "cells": [
+                  "Group"
+                ]
+              },
+              {
+                "cells": [
+                  "Status"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@searchResults"
+          }
+        ]
+      }
+    ],
+    "name": "files for Task5",
+    "description": "",
+    "id": "files-for-task5",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchResults.feature",
     "tags": []
   }
 ]

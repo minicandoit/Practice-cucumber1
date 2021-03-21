@@ -1,4 +1,4 @@
-@wiki
+@regression
 Feature: wiki search feature
 
   Scenario: Wikipedia Search Functionality Title Verification

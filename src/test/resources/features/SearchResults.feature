@@ -1,6 +1,6 @@
 Feature: files for Task5
 
-  @searchResults
+  @smoke@searchResults
   Scenario: Table columns names  As a user, I should be able to login as librarian. When I go to Users page, table
   should have following columns:
     Given user is on the login page
